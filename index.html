@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Paths - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Learning Paths</h1>
+            <p>Recommended paths for learning various concepts and technologies.</p>
+        </div>
+        <button id="theme-toggle-button" aria-label="Toggle theme">Dark Mode</button>
+    </header>
+
+    <main id="learning-paths-container">
+
+        <article class="learning-path">
+            <header class="path-header">
+                <h2>Introduction to Web Security (Web Security Fundamentals)</h2>
+                <button class="toggle-button" aria-expanded="true">Hide Steps</button>
+            </header>
+            <div class="path-content">
+                <p class="path-description">An introduction to the basic concepts of web security, essential for any developer.</p>
+                <ol class="path-steps">
+                    <li>
+                        <span class="step-title">Understanding HTTP/HTTPS</span>
+                        <span class="resource-type article">Article</span>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview" target="_blank" rel="noopener noreferrer">MDN HTTP Overview</a>
+                        <p class="resource-annotation">Fundamental! You need to understand how the browser communicates with the server before securing anything.</p>
+                    </li>
+                    <li>
+                        <span class="step-title">OWASP Top 10</span>
+                        <span class="resource-type website">Website</span>
+                        <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">OWASP Top 10 Project</a>
+                        <p class="resource-annotation">The list of the most critical security risks for web applications. A standard reference in the industry.</p>
+                    </li>
+                    <li>
+                        <span class="step-title">Cross-Site Scripting (XSS) - Explanation</span>
+                        <span class="resource-type video">Video</span>
+                        <a href="#placeholder-link-xss" target="_blank" rel="noopener noreferrer">Explanatory XSS Video (Example)</a>
+                        <p class="resource-annotation">A common attack. This video (replace the link!) visually explains how it works.</p>
+                    </li>
+                     <li>
+                        <span class="step-title">SQL Injection Basics</span>
+                        <span class="resource-type tutorial">Tutorial</span>
+                        <a href="#placeholder-link-sqli" target="_blank" rel="noopener noreferrer">SQL Injection Tutorial (Example)</a>
+                        <p class="resource-annotation">Understand how insecure queries can compromise the database. Very important!</p>
+                    </li>
+                    <li>
+                        <span class="step-title">Practice on a Platform</span>
+                        <span class="resource-type lab">Hands-on Lab</span>
+                        <a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">Web Security Academy</a>
+                        <p class="resource-annotation">The best way to learn is through practice. PortSwigger offers excellent free labs.</p>
+                    </li>
+                </ol>
+            </div>
+        </article>
+
+        <article class="learning-path">
+            <header class="path-header">
+                <h2>Networking Basics for Security</h2>
+                <button class="toggle-button" aria-expanded="true">Hide Steps</button>
+            </header>
+            <div class="path-content">
+                <p class="path-description">Essential networking concepts to understand how attacks and defenses work at the network level.</p>
+                <ol class="path-steps">
+                    <li>
+                        <span class="step-title">OSI Model vs TCP/IP</span>
+                        <span class="resource-type article">Article</span>
+                        <a href="#placeholder-link-osi" target="_blank" rel="noopener noreferrer">OSI/TCP Comparison Article (Example)</a>
+                        <p class="resource-annotation">Helps structure how you think about network communications.</p>
+                    </li>
+                    <li>
+                        <span class="step-title">IP Addressing (IPv4/IPv6) and Subnetting</span>
+                        <span class="resource-type tutorial">Tutorial</span>
+                        <a href="#placeholder-link-ip" target="_blank" rel="noopener noreferrer">IP Addressing Tutorial (Example)</a>
+                        <p class="resource-annotation">Fundamental to understanding how devices find each other on a network.</p>
+                    </li>
+                    <li>
+                        <span class="step-title">Common Protocols: TCP, UDP, DNS, DHCP</span>
+                        <span class="resource-type video">Video</span>
+                        <a href="#placeholder-link-protocols" target="_blank" rel="noopener noreferrer">Protocol Explainer Video (Example)</a>
+                         <p class="resource-annotation">How the main "languages" of the internet work.</p>
+                    </li>
+                     <li>
+                        <span class="step-title">Introduction to Wireshark</span>
+                        <span class="resource-type tool">Tool / Tutorial</span>
+                        <a href="https://www.wireshark.org/download.html" target="_blank" rel="noopener noreferrer">Download Wireshark</a> & <a href="#placeholder-link-wireshark-tut" target="_blank">Tutorial</a>
+                        <p class="resource-annotation">See network traffic "live". Essential for analysis and troubleshooting.</p>
+                    </li>
+                </ol>
+            </div>
+        </article>
+
+        
+
+    </main>
+
+    <footer>
+        <p>© 2023 Your Name - Online Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
